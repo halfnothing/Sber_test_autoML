@@ -31,4 +31,4 @@ def get_metric(metric_name: str) -> Callable:
         'log_loss': log_loss,
         'brier_score_loss': brier_score_loss
     }
-    return
+    return metrics[metric_name]
