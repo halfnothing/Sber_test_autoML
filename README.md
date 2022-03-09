@@ -11,4 +11,12 @@ callabel(X, y, classifier, get_metric(self.metric))```
 fit(X, y) - обучает и оценивает модели
 predict(X) - Применяет наилучшую модель к X
 
+## Установка зависимостей
 
+```shell
+pip install -r requiments.txt 
+```
+
+## Использование 
+
+скопировать папку auto_binary_classificator в проект или в 'python_directory\Lib\site-packages'
